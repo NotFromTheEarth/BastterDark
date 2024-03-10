@@ -1,0 +1,14 @@
+#aspnetForm > div.container.main-wrap
+{
+    background-color: var(--dark2) !important;
+}
+
+#aspnetForm > div.container.main-wrap > div.row > div.col-md-8.colunaConteudo
+{
+    color: var(--font1);
+}
+
+.panel-collapse.collapse.in
+{
+    color: var(--dark1);
+}

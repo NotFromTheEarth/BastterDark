@@ -1,0 +1,33 @@
+#aspnetForm > div.container.main-wrap
+{
+    background-color: var(--dark1) !important;
+}
+
+[id^='mensagem-']
+{
+    background-color: var(--dark3) !important;
+    color: var(--font1);
+}
+
+[id^='podebastter-episodio-']
+{
+    background-color: var(--dark2) !important;
+    color: var(--font1);
+}
+
+[id^='podebastter-audio-comentario-']
+{
+    background-color: var(--dark1) !important;
+    color: var(--font1);
+}
+
+[id^='podebastter-audio-comentario-'] > div > div.row.podebastter-audio-comentarios-resposta.margin-bottom > div > *
+{
+    background-color: var(--dark3) !important;
+    color: var(--font1);
+}
+
+#aspnetForm > div.container.main-wrap > div.row > div:nth-child(3) > div:nth-child(5) > div:nth-child(3) > label
+{
+    color: var(--font1);
+}

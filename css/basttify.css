@@ -1,0 +1,14 @@
+#aspnetForm > div.container.main-wrap
+{
+  background-color: var(--dark2) !important;
+}
+
+#aspnetForm > div.container.main-wrap > div.row
+{
+    background-color: var(--dark2);
+}
+
+#bastterfy-container > *
+{
+    background-color: var(--dark2);
+}

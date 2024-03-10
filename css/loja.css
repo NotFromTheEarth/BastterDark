@@ -1,0 +1,21 @@
+#aspnetForm > div.container.main-wrap
+{
+    background-color: var(--dark2) !important;
+    color: var(--font1);
+}
+
+div.row.meios-pagamento > *
+{
+    background-color: var(--font1) !important;
+    color: var(--dark1);
+}
+
+h4.text-center
+{
+    color: var(--dark1);
+}
+
+.modal-content
+{
+    color: var(--dark1);
+}

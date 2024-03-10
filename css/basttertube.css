@@ -1,0 +1,20 @@
+#aspnetForm > div.container.main-wrap
+{
+    background-color: var(--dark1) !important;
+}
+
+#basttertube-pesquisar
+{
+    color: var(--font1);
+}
+
+#basttertube-container > div > *
+{
+    background-color: var(--dark2) !important;
+    color: var(--font1);
+}
+
+.slick-next.slick-arrow
+{
+    color: var(--font1);
+}

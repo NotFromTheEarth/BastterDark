@@ -1,0 +1,48 @@
+{
+  "manifest_version": 3,
+ 
+  "name": "BastterDarker",
+  "version": "0.1.0",
+  "description": "Altera as cores do site Bastter.com",
+ 
+  "content_scripts":
+  [
+    {
+      "matches": [ "https://bastter.com/*" ],
+      "css": ["css/root.css", "css/menu.css"]
+    },
+    {
+      "matches": [ "https://bastter.com/superFAQ*" ],
+      "css": ["css/faq.css"]
+    },
+    {
+      "matches": [ "https://bastter.com/basttertube*" ],
+      "css": ["css/basttertube.css"]
+    },
+    {
+      "matches": [ "https://bastter.com/bodebastter*",
+                   "https://bastter.com/podebastter*" ],
+      "css": ["css/bodebastter.css"]
+    },
+    {
+      "matches": [ "https://bastter.com/mercado/basttergram*" ],
+      "css": ["css/basttergram.css"]
+    },
+    {
+      "matches": [ "https://bastter.com/mercado/loja*" ],
+      "css": ["css/loja.css"]
+    },
+    {
+      "matches": [ "https://bastter.com/basttify*" ],
+      "css": ["css/basttify.css"]
+    },
+    {
+      "matches": [ "https://bastter.com/live*" ],
+      "css": ["css/live.css"]
+    },
+    {
+      "matches": [ "https://bastter.com/iniciante*" ],
+      "css": ["css/iniciante.css"]
+    }
+  ]
+}

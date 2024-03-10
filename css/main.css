@@ -1,0 +1,71 @@
+/*
+  //removido por não conseguir incluir um seletor adequado para os tópicos porto seguro
+  {
+      "matches": [ "https://bastter.com/",
+                   "https://bastter.com/cassino",
+                   "https://bastter.com/anjos*"],
+      "css": ["css/main.css"]
+    },
+*/
+
+#aspnetForm > div.container.main-wrap
+{
+  background-color: var(--dark2) !important;
+}
+
+#aspnetForm > div.container.main-wrap > div.row
+{
+  background-color: var(--dark2);
+}
+
+[id^='topico_'] > div.panel-body
+{
+  background-color: var(--dark2) !important;
+  color: var(--font1);
+}
+
+[id^='topico_'] > div.panel-footer
+{
+  background-color: var(--dark2) !important;
+  color: var(--font1);
+}
+
+[id$='discussao'][id^='topico_']
+{
+  background-color: var(--dark2) !important;
+  color: var(--font1);
+}
+
+[id^='topico_resposta_'] > div > div.panel-body
+{
+  background-color: var(--dark2) !important;
+  color: var(--font1);
+}
+
+blockquote
+{
+  background-color: var(--dark3) !important;
+  color: var(--font1);
+}
+
+[id^='topico_'] > div.panel-body > div.topico-moderadores.col-md-4.col-xs-12.padding-right-0 > div
+{
+  background-color: var(--dark1) !important;
+  color: var(--font1);
+}
+
+[id^='topico_'] > div.panel-body > div.topico-usuarios-destaque.topico-melhoresrespostas.col-md-4.col-xs-12.padding-left-0 > div
+{
+  background-color: var(--dark1) !important;
+  color: var(--font1);
+}
+
+.pergunta-value
+{
+  color: var(--dark1);
+}
+
+.panel.panel-default.topico.loadonscroll
+{
+  color: var(--dark1) !important;
+}

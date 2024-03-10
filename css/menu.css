@@ -1,0 +1,54 @@
+html
+{
+    background-color: var(--dark3) !important;
+}
+
+#aspnetForm > nav > div.caontiner-fluid > div > div:nth-child(1) > div.col-xs-4.col-sm-3.col-md-3.col-lg-3.padding-right-xs-0 > div.off-canvas
+{
+    background-color: var(--dark3) !important;
+}
+
+#aspnetForm > nav > div.caontiner-fluid
+{
+    background-color: var(--dark1) !important;
+}
+
+#navbar-footer
+{
+    background-color: var(--dark3) !important;
+}
+
+body > footer
+{
+    background-color: var(--dark3) !important;
+}
+
+body > footer > *
+{
+    background-color: var(--dark3) !important;
+}
+
+#aspnetForm > footer
+{
+    background-color: var(--dark3) !important;
+}
+
+#aspnetForm > footer > *
+{
+    background-color: var(--dark3) !important;
+}
+
+.fa.fa-close
+{
+    color: var(--font1);
+}
+
+#aspnetForm
+{
+    background-color: var(--dark3) !important;
+}
+
+.navbar.navbar-default
+{
+    border-color: var(--dark3);
+}

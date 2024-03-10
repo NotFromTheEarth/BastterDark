@@ -1,0 +1,36 @@
+.panel-collapse.collapse > *
+{
+    background-color: var(--dark1);
+    color: var(--font1);
+}
+
+.collapse.in.quiz > *
+{
+    background-color: var(--dark2);
+    color: var(--font1);
+}
+
+#aspnetForm > div.container.main-wrap > div.row > div
+{
+    background-color: var(--dark1);
+}
+
+h2
+{
+    color: var(--font1) !important;
+}
+
+#sidebar > *
+{
+    color: var(--font1) !important;
+}
+
+#aspnetForm > div.container.main-wrap
+{
+    background-color: var(--dark1) !important;
+}
+
+.nav.nav-stacked :hover
+{
+    color: var(--font1) !important;
+}

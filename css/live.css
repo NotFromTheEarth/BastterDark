@@ -1,0 +1,5 @@
+#aspnetForm > div.container.main-wrap
+{
+    background-color: var(--dark2) !important;
+    color: var(--font1);
+}
